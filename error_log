@@ -1,0 +1,16 @@
+[01-Jul-2021 12:35:14 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php on line 17
+[01-Jul-2021 12:35:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php on line 17
+[01-Jul-2021 12:35:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php on line 17
+[01-Jul-2021 12:36:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/easyvxpu/smart-amr/wp-content/plugins/smart/index.php on line 17

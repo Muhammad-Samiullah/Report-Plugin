@@ -1,0 +1,115 @@
+  <div class="form-group row">
+    <label for="hospital-name" class="col-4 col-form-label">Hospital Name (*)</label> 
+    <div class="col-8">
+      <input id="hospital-name" name="hospital-name" type="text" aria-describedby="hospital-nameHelpBlock" required="required" class="form-control"> 
+      <span id="hospital-nameHelpBlock" class="form-text text-muted">Complete hospital / laboratory name</span>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="hospital-address" class="col-4 col-form-label">Address (*)</label> 
+    <div class="col-8">
+      <input id="hospital-address" name="hospital-address" type="text" aria-describedby="hospital-addressHelpBlock" required="required" class="form-control"> 
+      <span id="hospital-addressHelpBlock" class="form-text text-muted">Complete address of hospital / laboratory</span>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="hospital-city" class="col-4 col-form-label">City (*)</label> 
+    <div class="col-8">
+      <input id="hospital-city" name="hospital-city" type="text" aria-describedby="hospital-cityHelpBlock" class="form-control"> 
+      <span id="hospital-cityHelpBlock" class="form-text text-muted">City name</span>
+	  </div>
+    </div>
+  <hr style='border: 1px solid black; margin:5px 0px 10px 0px'>
+  <div class="form-group row">
+    <label for="focal-person" class="col-4 col-form-label">Focal Person Name (*)</label> 
+    <div class="col-8">
+      <input id="focal-person" name="focal-person" type="text" class="form-control" aria-describedby="focal-personHelpBlock" required="required"> 
+      <span id="focal-personHelpBlock" class="form-text text-muted">Complete Name of Focal Person</span>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="focal-person-designation" class="col-4 col-form-label">Focal Person Designation</label> 
+    <div class="col-8">
+      <input id="focal-person-designation" name="focal-person-designation" type="text" class="form-control" required="required" aria-describedby="focal-person-designationHelpBlock"> 
+      <span id="focal-person-designationHelpBlock" class="form-text text-muted">Complete designation of focal person (may include qualification)</span>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="focal-person-contact" class="col-4 col-form-label">Focal Person Contact</label> 
+    <div class="col-8">
+      <input id="focal-person-contact" name="focal-person-contact" type="text" aria-describedby="focal-person-contactHelpBlock" required="required" class="form-control"> 
+      <span id="focal-person-contactHelpBlock" class="form-text text-muted">Contact number of Focal Person</span>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="focal-person-email" class="col-4 col-form-label">Focal Person E-Mail</label> 
+    <div class="col-8">
+      <input id="focal-person-email" name="focal-person-email" type="email" aria-describedby="focal-person-emailHelpBlock" required="required" class="form-control"> 
+      <span id="focal-person-emailHelpBlock" class="form-text text-muted">Email address of focal person (required for contact)</span>
+    </div>
+  </div> 
+  <hr style='border: 1px solid black; margin:5px 0px 10px 0px'>
+    <div class="form-group row">
+    <label for="consultant-name" class="col-4 col-form-label">Name of Consultant</label> 
+    <div class="col-8">
+      <input id="consultant-name" name="consultant-name" type="text" class="form-control" aria-describedby="consultant-nameHelpBlock">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="consultant-qualification" class="col-4 col-form-label">Qualification of Consultant</label> 
+    <div class="col-8">
+      <input id="consultant-qualification" name="consultant-qualification" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="consultant-qualification" class="col-4 col-form-label">Designation of Consultant</label> 
+    <div class="col-8">
+      <input id="consultant-designation" name="consultant-qualification" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="pathologist-name" class="col-4 col-form-label">Name of Pathologist</label> 
+    <div class="col-8">
+      <input id="pathologist-name" name="pathologist-name" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="pathologist-qualification" class="col-4 col-form-label">Qualification of Pathologist</label> 
+    <div class="col-8">
+      <input id="pathologist-qualification" name="pathologist-qualification" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="pathologist-designation" class="col-4 col-form-label">Designation of Pathologist</label> 
+    <div class="col-8">
+      <input id="pathologist-designation" name="pathologist-designation" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="technician-name" class="col-4 col-form-label">Name of Technician</label> 
+    <div class="col-8">
+      <input id="technician-name" name="technician-name" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="technician-qualification" class="col-4 col-form-label">Qualification of Technician</label> 
+    <div class="col-8">
+      <input id="technician-qualification" name="technician-qualification" type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="technician-designation" class="col-4 col-form-label">Designation of Technician</label> 
+    <div class="col-8">
+      <input id="technician-designation" name="technician-designation" type="text" class="form-control">
+    </div>
+  </div> 
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+  <input name="action" value="hospital_handler" type="hidden">
+
+</form>
+<div class="alert alert-success" id="success_msg" style="display: none">Data successfully stored</div>
+<div class="alert alert-danger" id="error_msg" style="display: none">There was some error. Please try again</div>
